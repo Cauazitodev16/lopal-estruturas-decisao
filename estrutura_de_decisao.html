@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Classificação</title>
+</head>
+
+<body>
+    <script>
+        let classificacao = prompt("Digite 1, se seu time foi classificado para a Libertadores, Digite 2," + "caso contrário");
+
+
+        /*if (classificacao == 1) {
+            document.write("Ebaaa, seu time está classificado! Parabéns!");
+        } else if (classificacao == 2){
+            document.write("Putz, time ruim kkkkkkkk");
+        } else {
+            document.write("Opção inválida, digite 1 ou 2, não sou vidente pra adivinhar se classificou ou não");
+        }*/
+
+        let cumprimento = (classificacao == 1) ? 
+            "Ebaaa, seu time está classificado! Parabéns!" :
+            (classificacao == 2) ? 
+            "Putz, time ruim kkkkkkkk" : 
+            "Opção inválida, não sou vidente pra adivinhar se seu time está classificado ou não!"
+
+        document.write(cumprimento);
+
+
+    </script>
+</body>
+
+</html>
